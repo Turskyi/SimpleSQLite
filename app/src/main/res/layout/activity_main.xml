@@ -5,6 +5,37 @@
     android:layout_height="fill_parent"
     android:orientation="vertical">
     <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/id"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="25dp">
+        </TextView>
+        <EditText
+            android:id="@+id/etID"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+        </EditText>
+        <Button
+            android:id="@+id/btnUpd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/update">
+        </Button>
+        <Button
+            android:id="@+id/btnDel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
         android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -19,8 +50,7 @@
             android:id="@+id/etName"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:importantForAutofill="no">
+            android:layout_weight="1">
             <requestFocus>
             </requestFocus>
         </EditText>
@@ -33,7 +63,7 @@
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/email"
+            android:text="Email"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp">
         </TextView>
@@ -52,19 +82,19 @@
             android:id="@+id/btnAdd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/add">
+            android:text="Add">
         </Button>
         <Button
             android:id="@+id/btnRead"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/read">
+            android:text="Read">
         </Button>
         <Button
             android:id="@+id/btnClear"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/clear">
+            android:text="Clear">
         </Button>
     </LinearLayout>
 </LinearLayout>
